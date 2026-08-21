@@ -1,0 +1,77 @@
+export const LIKERT = ['Tidak pernah', 'Kadang-kadang', 'Sering', 'Hampir setiap hari']
+
+export const QUIZZES = [
+  {
+    id: 'anxiety',
+    title: 'Skrining Kecemasan',
+    icon: '💭',
+    domain: 'anxiety',
+    desc: 'Mengukur seberapa sering kamu merasa cemas atau khawatir dalam 2 minggu terakhir.',
+    questions: [
+      { text: 'Aku merasa gugup, cemas, atau tegang tanpa sebab yang jelas.' },
+      { text: 'Aku sulit menghentikan atau mengendalikan rasa khawatirku.' },
+      { text: 'Pikiranku berputar terus dan susah tenang.' },
+      { text: 'Aku mudah gelisah atau sulit duduk diam.' },
+      { text: 'Aku merasa takut sesuatu yang buruk akan terjadi.' },
+      { text: 'Aku menghindari situasi karena merasa cemas.' },
+    ],
+  },
+  {
+    id: 'mood',
+    title: 'Skrining Suasana Hati',
+    icon: '🌧️',
+    domain: 'mood',
+    desc: 'Mengukur perasaan sedih atau kehilangan minat dalam 2 minggu terakhir.',
+    questions: [
+      { text: 'Aku kehilangan minat pada hal yang biasanya kusukai.' },
+      { text: 'Aku merasa sedih, hampa, atau putus asa.' },
+      { text: 'Aku sulit tidur, atau malah tidur berlebihan.' },
+      { text: 'Aku merasa lelah dan tidak berenergi.' },
+      { text: 'Aku merasa tidak berharga atau bersalah.' },
+      { text: 'Aku sulit berkonsentrasi saat belajar.' },
+    ],
+  },
+  {
+    id: 'stress',
+    title: 'Skrining Stres',
+    icon: '🌊',
+    domain: 'stress',
+    desc: 'Mengukur tingkat tekanan yang kamu rasakan belakangan ini.',
+    questions: [
+      { text: 'Aku merasa tidak mampu mengendalikan hal-hal penting dalam hidupku.' },
+      { text: 'Aku merasa gugup atau tertekan oleh tuntutan tugas.' },
+      { text: 'Aku merasa sulit mengatasi semua hal yang harus dilakukan.' },
+      { text: 'Aku merasa mudah tersinggung atau marah.' },
+      { text: 'Aku merasa masalah menumpuk tanpa bisa kulakukan apa-apa.' },
+      { text: 'Aku merasa tidak punya waktu untuk beristirahat.' },
+    ],
+  },
+  {
+    id: 'sleep',
+    title: 'Skrining Pola Tidur',
+    icon: '🌙',
+    domain: 'sleep',
+    desc: 'Mengukur kualitas tidurmu dalam sebulan terakhir.',
+    questions: [
+      { text: 'Aku butuh waktu lama untuk bisa tertidur.' },
+      { text: 'Aku terbangun di tengah malam dan sulit tidur lagi.' },
+      { text: 'Aku bangun terlalu pagi dan tidak bisa tidur lagi.' },
+      { text: 'Aku merasa tidak segar saat bangun pagi.' },
+      { text: 'Aku mengantuk atau lelah di siang hari.' },
+    ],
+  },
+  {
+    id: 'academic',
+    title: 'Skrining Beban Belajar',
+    icon: '📚',
+    domain: 'stress',
+    desc: 'Mengukur tekanan akademik yang kamu rasakan.',
+    questions: [
+      { text: 'Aku merasa kewalahan dengan jumlah tugas dan ujian.' },
+      { text: 'Aku takut gagal atau mengecewakan orang tua.' },
+      { text: 'Aku sering menunda tugas karena merasa tertekan.' },
+      { text: 'Aku merasa tidak cukup pintar dibanding teman-teman.' },
+      { text: 'Belajar terasa melelahkan dan tidak menyenangkan lagi.' },
+    ],
+  },
+]
